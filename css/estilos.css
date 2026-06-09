@@ -68,11 +68,12 @@ input:focus{
     border-radius:12px;
     overflow:hidden;
     box-shadow:0 4px 10px rgba(0,0,0,.1);
-    transition:.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tarjeta:hover{
-    transform:translateY(-5px);
+    transform:translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
 }
 
 .tarjeta img{
