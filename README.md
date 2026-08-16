@@ -39,7 +39,9 @@ Los datos son consultados desde una API externa y posteriormente procesados y mo
 
 ```text
 mi-galeria-web/
+├── css/
+│   └── estilos.css
+├── js/
+│   └── app.js
 ├── index.html
-├── style.css
-├── script.js
 └── README.md
